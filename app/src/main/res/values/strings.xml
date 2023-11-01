@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">RecycleViewButBetter</string>
+    <string name="dummy_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</string>
+
+    <array name="description">
+        <item>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+        </item>
+        <item>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+        </item>
+        <item>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+        </item>
+        <item>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+        </item>
+        <item>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+        </item>
+        <item>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+        </item>
+        <item>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+        </item>
+        <item>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+        </item>
+    </array>
+</resources>
