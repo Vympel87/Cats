@@ -2,7 +2,35 @@
     <string name="app_name">RecycleViewButBetter</string>
     <string name="dummy_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</string>
 
-    <array name="description">
+    <array name="title">
+        <item name="Anggora">
+            Anggora
+        </item>
+        <item name="Domestik">
+            Domestik
+        </item>
+        <item name="Maine_Coon">
+            Maine Coon
+        </item>
+        <item name="Persia">
+            Persia
+        </item>
+        <item name="Ragdoll">
+            Rag Doll
+        </item>
+        <item name="Russian_Blue">
+            Russian Blue
+        </item>
+        <item name="Siam">
+            Siam
+        </item>
+        <item name="Sphynx">
+            Sphynx
+        </item>
+    </array>
+
+    <array name="body">
+
         <item name="Anggora">
             Anggora biasanya berukuran kecil hingga sedang dengan berat 5 hingga 9 pound.
             Dibalik kecantikanya kucing ini juga cerdas yang membuatnya selalu menghibur Anda.
@@ -15,6 +43,7 @@
             peliharaan lainnya seperti anjing.
             Sangat menggemaskan melihat hewan-hewan dan keluarga Anda rukun bersama Anggora.
         </item>
+
         <item name="Domestik">
             Kucing domestik adalah kucing yang ada di seluruh belahan dunia kecuali Antartika.
             Mereka dapat bertahan hidup di mana saja. Mulai dari padang pasir, gunung, dan
@@ -27,6 +56,7 @@
             dirinya sendiri,
             yaitu ketika manusia sudah mulai mengembangkan pertanian.
         </item>
+
         <item name="Maine_Coon">
             Kucing Maine Coon dapat dengan mudah dibedakan karena ukuran kucing Maine Coon yang
             tergolong besar dan bulu mereka yang panjang.
@@ -41,6 +71,7 @@
             dapat menjadi hewan peliharaan pilihan bagi keluarga yang memiliki anak-anak dikarenakan
             mereka adalah jenis kucing yang baik hati.
         </item>
+
         <item name="Persia">
             Kucing Persia berhidung datar memiliki penampilan yang berbeda dari kebanyakan kucing
             lainnya.
@@ -60,6 +91,7 @@
             pendek.
             Ukuran kucing Persia adalah sedang, seperti kucing lain pada umumnya.
         </item>
+
         <item name="Ragdoll">
             Pemberian nama Ragdoll pada jenis kucing yang cantik ini sangat tepat karena mereka
             adalah jenis kucing yang akan dengan
@@ -77,6 +109,7 @@
             biasanya menyebar
             di sekitar mata, telinga, kaki belakang, dan ekor.
         </item>
+
         <item name="Russian_Blue">
             Banyak peternak mengatakan bahwan kucing Russian Blue pertama kali berasal dari
             pelabuhan Baltic of Archangel, dekat dengan
@@ -114,6 +147,7 @@
             lainnya, diperlakukan dengan hormat
             yang pantas diterima oleh mereka.
         </item>
+
         <item name="Siam">
             Kucing Siam memiliki ciri khas tersendiri dengan tubuhnya yang semampai, ramping, dan
             memiliki anatomi pemain akrobat
@@ -131,6 +165,7 @@
             itu,
             bermainlah bersama mereka untuk menumbuhkan ikatan yang erat dengan Anda.
         </item>
+
         <item name="Sphynx">
             Ras Kucing sphinx adalah jenis kucing spesial yang berukuran sedang. Apa yang membedakan
             kucing sphinx dari hampir semua
@@ -163,30 +198,4 @@
         </item>
     </array>
 
-    <array name="body">
-        <item>
-
-        </item>
-        <item>
-
-        </item>
-        <item>
-
-        </item>
-        <item>
-
-        </item>
-        <item>
-
-        </item>
-        <item>
-
-        </item>
-        <item>
-
-        </item>
-        <item>
-
-        </item>
-    </array>
 </resources>

@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
             R.drawable.sphynx
         )
 
-        heading = resources.getStringArray(R.array.description)
+        heading = resources.getStringArray(R.array.title)
 
         cats = resources.getStringArray(R.array.body)
 
