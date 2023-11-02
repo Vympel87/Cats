@@ -1,5 +1,6 @@
 package com.example.recycleviewbutbetter
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -12,6 +13,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var newArrayList: ArrayList<Cats>
     lateinit var imageId : Array<Int>
     lateinit var heading : Array<String>
+    lateinit var cats: Array<String>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -29,6 +31,8 @@ class MainActivity : AppCompatActivity() {
         )
 
         heading = resources.getStringArray(R.array.description)
+
+        cats = resources.getStringArray(R.array.body)
 
         newRecycleview = findViewById(R.id.recycleview)
         newRecycleview.layoutManager = LinearLayoutManager(this)
@@ -49,9 +53,15 @@ class MainActivity : AppCompatActivity() {
         newRecycleview.adapter = adapter
         adapter.setOnItemClickListener(object : CatsAdapter.onItemClickListener {
             override fun onItemClick(position: Int) {
-                Toast.makeText(this@MainActivity, "You clicked on item no. $position", Toast.LENGTH_SHORT).show()
-            }
 
+//          Toast.makeText(this@MainActivity, "You clicked on item no. $position", Toast.LENGTH_SHORT).show()
+
+            val intent = Intent(this@MainActivity, CatsActivity::class.java)
+            intent.putExtra("heading", newArrayList[position].heading)
+            intent.putExtra("imageId", newArrayList[position].titleImage)
+            intent.putExtra("cats", cats[position])
+            startActivity(intent)
+            }
         })
     }
 }
