@@ -2,6 +2,7 @@ package com.example.recycleviewbutbetter
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
@@ -44,6 +45,13 @@ class MainActivity : AppCompatActivity() {
             newArrayList.add(cats)
         }
 
-        newRecycleview.adapter = CatsAdapter(newArrayList)
+        var adapter = CatsAdapter(newArrayList)
+        newRecycleview.adapter = adapter
+        adapter.setOnItemClickListener(object : CatsAdapter.onItemClickListener {
+            override fun onItemClick(position: Int) {
+                Toast.makeText(this@MainActivity, "You clicked on item no. $position", Toast.LENGTH_SHORT).show()
+            }
+
+        })
     }
 }
